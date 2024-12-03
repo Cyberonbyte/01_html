@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- Links Externos que vai para outro conteúdo -->
+    <!-- Exemplo de link na mesma aba, mas para outro site-->
+    <p>Exemplo 1 <a href="https://www.facebook.com/">exemplo</a></p> 
+    <!-- Tag <a>: usada para criar links -->
+    <!-- Atributo href define o destino do link -->
+
+    <!-- Exemplo de link que vai para outro site e em outra aba -->
+    <p>Exemplo 2 <a href="https://www.facebook.com/" target="_blank" rel="external">exemplo</a></p>
+    <!-- Atributo target controla como o link será aberto -->
+    <!-- O valor _blank faz com que o link abra em outra guia -->
+    <!-- Atributo rel fala sobre a relação com o documento atual e o documento de destino -->
+    <!-- O valor external indica que o link leva a um site externo, o que pode ajudar navegadores e motores de busca a tratar o link adequadamente (ex: segurança, SEO). -->
+
+<!-- Links Internos que vai para o conteúdo da mesma página -->
+    <!-- Exemplo de link de mesmo conteúdo e indo para uma nova página html -->
+    <p>Exemplo 3 <a href="pagina2.html" rel="next">exemplo</a></p>
+    <!-- Só funciona se a página estiver no mesmo arquivo -->
+
+    <!-- Abrir link dentro de outra pasta -->
+    <p>Exemplo 4 <a href="nova/página3.html" rel="next">exemplo</a></p>
+    <!-- pagina3.html -> <p><a href="../index.html">Voltar</a></p> -->
+         <!-- O comando ../ volta uma pasta para acessar a página 'index.html' -->
+
+<!-- Links para download -->
+    <p>Exemplo 5 <a href="pasta/Calendário Acadêmico EAD 2024.3_V07.zip">exemplo</a></p>
+</body>
+</html>
